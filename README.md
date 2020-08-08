@@ -74,7 +74,7 @@ login : admin
 password : admin
 
 ### Books Data Sets 
-* [https://www.kaggle.com/jealousleopard/goodreadsbooks] (https://www.kaggle.com/jealousleopard/goodreadsbooks)
+* [https://www.kaggle.com/jealousleopard/goodreadsbooks](https://www.kaggle.com/jealousleopard/goodreadsbooks)
 
 ### References
 
