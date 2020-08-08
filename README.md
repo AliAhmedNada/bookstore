@@ -1,4 +1,4 @@
-# Book Store SPA (Angular 6)
+# Book Store SPA
 
 ### Description
 
