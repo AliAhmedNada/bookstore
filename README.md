@@ -70,8 +70,8 @@ $ ng serve
     - Can change his own avatar
 
 - Admin users
-login : admin
-password : admin
+* login : admin
+* password : admin
 
 ### Books Data Sets 
 * [https://www.kaggle.com/jealousleopard/goodreadsbooks](https://www.kaggle.com/jealousleopard/goodreadsbooks)
