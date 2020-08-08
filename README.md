@@ -69,7 +69,7 @@ $ ng serve
     - Create favorite books list
     - Can change his own avatar
 
-- Admin users
+ Admin users
 * login : admin
 * password : admin
 
