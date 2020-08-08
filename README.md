@@ -82,16 +82,12 @@ $ ng serve
     - Can change his own avatar
 
 - Admin users
-    - Add books to the store
-    - Edit books
-    - Delete books
-    - Edit/Delete offensive user comments
-    - Block/Unblock user from commenting
-    - Change unappropriate user avatars
+login : admin
+password : admin
 
-### Authors
+### References
 
-* [Zhelyan Radoev](https://github.com/jeliozver)
+* [https://github.com/jeliozver/Book-Store-SPA](https://github.com/jeliozver/Book-Store-SPA)
 
 ### License
 ----
