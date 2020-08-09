@@ -21,6 +21,7 @@ Book Store uses a number of open source projects to work:
 Book Store requires 
 * [MongoDB](https://www.mongodb.com/download-center#community) v3.6+
 * [NodeJS](https://nodejs.org/en/) v8+
+* MongoDB toolbox
 
 To start the database (port: 27017): Install MongoDB, open new cmd window (in project root) and run
 
