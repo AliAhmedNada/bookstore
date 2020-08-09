@@ -74,6 +74,20 @@ $ ng serve
 * login : admin
 * password : admin
 
+### Docker build 
+
+go to the server and client and do the following 
+
+Server : 
+
+~~~
+docker build -t aliahmednada/backendServer . 
+~~~
+~~~
+docker run -d -p 8000:8000 aliahmednada/backendServer
+~~~
+
+
 ### Books Data Sets 
 * [https://www.kaggle.com/jealousleopard/goodreadsbooks](https://www.kaggle.com/jealousleopard/goodreadsbooks)
 
