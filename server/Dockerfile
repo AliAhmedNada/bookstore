@@ -1,20 +1,18 @@
-FROM mongo AS mongo
-FROM node:12
-
-# Create app directory
+#Each instruction in this file creates a new layer
+#Here we are getting our node as Base image
+FROM node:latest
+#Creating a new directory for app files and setting path in the container
+RUN mkdir -p /usr/src/app
+#setting working directory in the container
 WORKDIR /usr/src/app
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
-
+#copying the package.json file(contains dependencies) from project source dir to container dir
+COPY package.json /usr/src/app
+# installing the dependencies into the container
 RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
-
-# Bundle app source
-COPY . .
-
-EXPOSE 8000
-CMD [ "npm","run" ,"start" ]
+#copying the source code of Application into the container dir
+COPY . /usr/src/app
+#container exposed network port number
+EXPOSE 7500
+#command to run within the container
+CMD ['node', 'app.js']
+CMD ['mongoimport' ,'--db BookStore --collection books --file books11.json --jsonArray']
