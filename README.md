@@ -81,12 +81,27 @@ go to the server and client and do the following
 Server : 
 
 ~~~
-docker build -t aliahmednada/backendServer . 
+docker build -t aliahmednada/backendserver . 
 ~~~
 ~~~
-docker run -d -p 8000:8000 aliahmednada/backendServer
+docker run -d -p 8000:8000 aliahmednada/backendserver
+~~~
+~~~
+docker-compose up
 ~~~
 
+
+client : 
+
+~~~
+docker build -t aliahmednada/frontendserver . 
+~~~
+~~~
+docker run -d -p 8000:8000 aliahmednada/frontendserver
+~~~
+~~~
+docker-compose up
+~~~
 
 ### Books Data Sets 
 * [https://www.kaggle.com/jealousleopard/goodreadsbooks](https://www.kaggle.com/jealousleopard/goodreadsbooks)
